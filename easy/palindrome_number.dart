@@ -6,7 +6,5 @@ void main() {
 bool isPalindrome(int x) {
   String number = x.toString();
   String rev = x.toString().split('').reversed.join();
-  print(number);
-  print(rev);
   return number == rev;
 }
