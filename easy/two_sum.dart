@@ -1,9 +1,5 @@
 void main() {
-  List<int>? result = twoSum([
-    3,
-    2,
-    4,
-  ], 6);
+  List<int>? result = twoSum([3, 2, 4], 6);
 
   print(result);
 }
