@@ -12,6 +12,5 @@ List<int>? twoSum(List<int> nums, int target) {
       }
     }
   }
-
   return null;
 }
